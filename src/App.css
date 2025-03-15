@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Sanchez:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Sanchez:ital@0;1&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Sanchez", serif;
+  font-weight: 400;
+  font-style: normal;
+  /* user-select: none; */
+}
+:root {
+  --co-white :white;
+  --co-gray:#818080;
+  --co-back-gray :#e5e4e3;
+  --co-back-gray-2 :#f7f6f5;
+  --co-back-gray-3 :#d4d2d0;
+  --co-back-gray-4 :#f9f7f4;
+  --co-back-gray-5 :#3d3c3c81;
+  --co-blue-1:#2a205f;
+  --co-blue-2:#3f51b5;
+  --co-txt-dark :#cedbef;
+  --co-black-1:rgba(0, 0, 0, 0.934);
+  --co-black-2:rgba(0, 0, 0, 0.555);
+  --co-red:rgb(234, 25, 25);
+  --co-red-2:#d9534f;
+}
+
+.merriweather-bold {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+#main-app {
+  background: url("/background.webp") no-repeat center ;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+}
+* button {
+  cursor: pointer;
+  padding: .3rem 1rem;
+  border-radius: 10px;
+  background-color: var(--co-white);
+  font-size: .90rem;
+  display: flex;
+  align-items: center;
+  gap: .3rem;
+  justify-content: center;
+}
+* button:hover {
+  filter: brightness(90%);
+  transition: .4s ease;
+}
+::-webkit-scrollbar {
+  width: 5px;
+  height: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--co-back-gray-3);
+  border-radius: 10px;
+}
+textarea {
+  resize: none !important;
+  border: 1px solid var(--co-back-gray);
+  border-radius: 10px;
+  padding:.5rem;
+}
+input , select {
+  border: 1px solid var(--co-back-gray);
+  border-radius: 10px;
+  padding:.5rem;
+}
+textarea:focus , input:focus {
+  border: 1px solid var(--co-gray);
+  transition: .3s;
+  box-shadow: 0 7px 10px -5px var(--co-back-gray-3);
+}
+.back-blue-dark{
+  color: var(--co-white);
+  background: #000428;
+  background: -webkit-linear-gradient(to top, #004e92, #000428);
+  background: linear-gradient(to top, #004e92, #000428);
+}
