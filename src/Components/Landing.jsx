@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import NavBar from './NavBar'
 import '../Styles/stylesLanding.css'
-import { CARD_INFO } from '../JS/info'
+import { CARD_INFO } from '../JS/info.js'
 import Footer from './Footer'
 import Faq from './Faq'
 const Landing = () => {

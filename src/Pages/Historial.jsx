@@ -1,7 +1,7 @@
 import React from 'react';
 import NavBar from '../Components/NavBar';
 import '../Styles/stylesHistorial.css';
-import { historyDocumentation } from '../Historial/historial';
+import { historyDocumentation } from '../Historial/historial.js';
 
 const Historial = () => {
   return (

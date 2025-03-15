@@ -1,4 +1,3 @@
-// data/como_potenciar_tu_entrenamiento_en_casa.js
 
 export const como_potenciar_tu_entrenamiento_en_casa = {
   id: 1,
