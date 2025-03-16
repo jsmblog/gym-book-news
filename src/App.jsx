@@ -12,7 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="*" element={<PageNotFound/>} />
-        <Route path="/blog" element={<h1><Blog/></h1>} />
+        <Route path="/blog" element={<Blog/>} />
         <Route path='/historial' element={<Historial/>} />
         <Route path='/blog/:post' element={<BlogPost/>} />
       </Routes>

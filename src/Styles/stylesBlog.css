@@ -14,7 +14,7 @@
   
   .back-button {
     position: absolute;
-    top: 2rem;
+    top: .5rem;
     font-size: 2.5rem;
   }
   .blog-posts {
