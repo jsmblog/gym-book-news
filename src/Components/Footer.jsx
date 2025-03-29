@@ -36,9 +36,11 @@ const Footer = () => {
               placeholder="Ingresa tu correo"
               required
             />
-            <button className="modal-button back-blue-dark" onClick={handleSubmit}>
+            <button className="ml-onclick-form modal-button back-blue-dark" onclick="ml('show', 'EPtwYs', true)">
               Suscribirme
             </button>
+            {/* <button className="modal-button back-blue-dark" onClick={handleSubmit}>
+            </button> */}
             <button className="modal-close" onClick={() => setShowModal(false)}>
               X
             </button>

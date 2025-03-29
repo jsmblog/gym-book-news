@@ -12,9 +12,9 @@ export const faq = [
       answer: 'Sí, Gymbook ofrece su uso básico de forma gratuita. Algunos gimnasios asociados pueden tener tarifas adicionales por servicios premium, pero la plataforma en sí no tiene costo.'
     },
     {
-      question: '¿Cómo reservo una clase?',
-      answer: 'Una vez registrado, puedes buscar clases por ubicación o tipo de actividad y reservarlas con unos pocos clics. La confirmación se envía al instante y podrás gestionarlas desde tu perfil.'
-    },
+      "question": "¿Cómo puedo hacer una reserva?",
+      "answer": "Una vez registrado, puedes buscar y reservar clases o espacios en el gimnasio según tu ubicación y tipo de actividad. La confirmación se envía al instante y podrás gestionar tus reservas fácilmente desde tu perfil."
+    },    
     {
       question: '¿Puedo modificar o cancelar mis reservas?',
       answer: 'Sí, Gymbook permite cambiar o cancelar tus reservas según las políticas de cada gimnasio. Esto lo puedes hacer desde tu cuenta de usuario en la sección de “Mis Reservas”.'
@@ -24,8 +24,8 @@ export const faq = [
     //   answer: 'Aunque el uso de la plataforma es gratuito, los gimnasios pueden requerir pagos para ciertas clases o servicios. Generalmente se aceptan tarjetas de crédito, débito y otros métodos de pago electrónicos seguros.'
     // },
     {
-      question: '¿La plataforma está disponible en dispositivos móviles?',
-      answer: 'No (por el momento), Gymbook no cuenta con una versión optimizada para dispositivos móviles.'
+      question: '¿La plataforma está disponible en tiendas de aplicaciones?',
+      answer: 'No (por el momento), Gymbook no cuenta con una versión optimizada para dispositivos móviles, pero puedes acceder a ella desde cualquier navegador web.'
     },
     {
       question: '¿Qué hago si encuentro un problema técnico?',

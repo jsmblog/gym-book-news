@@ -67,6 +67,18 @@ export const historyDocumentation = {
     futurePlan: {
       upcomingUpdates: [
         {
+          plannedDate: "05-04-2025 - 10-04-2025",
+          update: "Integración de sistemas de reservas.",
+          state: "En Desarrollo",
+          description: "Implementación de un sistema de reservas para clases y servicios, permitiendo a los usuarios agendar actividades y recibir recordatorios."
+        },
+        {
+          plannedDate: "Próximamente",
+          update: "Integración de sistemas de pagos.",
+          state: "En revisión",
+          description: "Implementación de un sistema de pagos seguro y confiable para la compra de productos y servicios dentro de la plataforma."
+        },
+        {
           plannedDate: "Próximamente",
           update: "Implementación de API de rutinas de ejercicios",
           state: "En revisión",
