@@ -68,5 +68,3 @@ export const tendencias_en_el_mundo_fitness = {
     }
   ]
 };
-
-export default tendencias_en_el_mundo_fitness;

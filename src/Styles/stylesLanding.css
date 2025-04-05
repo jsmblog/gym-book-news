@@ -38,8 +38,35 @@
     gap: 20px;
     max-width: 1200px;
     margin: 20px auto;
+    transition: opacity 0.3s ease-in-out;
+  }
+  .cards-container.fade {
+    opacity: 0;
   }
   
+  .cards-container.fade-in {
+    opacity: 1;
+  }
+  
+  .tabs {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+  }
+  
+  .tabs button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: var(--co-white);
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .tabs button.active,
+  .tabs button:hover {
+    background-color: var(--co-blue-2);
+    color: var(--co-white);
+  }
   .card {
     background: var(--co-white);
     padding: 20px;

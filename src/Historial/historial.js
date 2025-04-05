@@ -5,7 +5,7 @@ export const historyDocumentation = {
     },
     chronology: [
       {
-        date: "2025-03-24",
+        date: "2025-04-07",
         event: "Lanzamiento Beta",
         description: "La página se lanzó al público con un diseño responsivo y funcionalidades básicas."
       },
@@ -17,9 +17,16 @@ export const historyDocumentation = {
     ],
     statesTransitions: [
       {
+        state: "Desarrollado",
+        startDate: "05-04-2025",
+        endDate: "4-04-2025",
+        trigger: "Integración de sistemas de reservas.",
+        details: "Implementación de un sistema de reservas para clases y servicios, permitiendo a los usuarios agendar actividades y recibir recordatorios."
+      },
+      {
         state: "Beta",
-        startDate: "2025-01-24",
-        endDate: "2025-01-24",
+        startDate: "2025-04-07",
+        endDate: "2025-04-14",
         trigger: "Versión beta para usuarios selectos",
         details: "Recopilación de feedback y ajustes en base a las primeras experiencias reales."
       },
@@ -67,17 +74,23 @@ export const historyDocumentation = {
     futurePlan: {
       upcomingUpdates: [
         {
-          plannedDate: "05-04-2025 - 10-04-2025",
-          update: "Integración de sistemas de reservas.",
-          state: "En Desarrollo",
-          description: "Implementación de un sistema de reservas para clases y servicios, permitiendo a los usuarios agendar actividades y recibir recordatorios."
+          plannedDate: "Próximamente",
+          update: "Integración de sistemas de pagos.",
+          state: "En desarrollo",
+          description: "Implementación de un sistema de pagos seguro y confiable para la compra de productos y servicios dentro de la plataforma."
         },
         {
           plannedDate: "Próximamente",
-          update: "Integración de sistemas de pagos.",
+          update: "Integración con redes sociales",
           state: "En revisión",
-          description: "Implementación de un sistema de pagos seguro y confiable para la compra de productos y servicios dentro de la plataforma."
-        },
+          description: "Automatiza la difusión de publicaciones y eventos en redes sociales para ampliar el alcance."
+        } ,
+        {
+          plannedDate: "Próximamente",
+          update: "Gestión de eventos",
+          state: "En revisión",
+          description: "Se habilitará una sección para crear y gestionar eventos comunitarios, con encuestas y herramientas integrales para organizar actividades."
+        },        
         {
           plannedDate: "Próximamente",
           update: "Implementación de API de rutinas de ejercicios",
@@ -89,7 +102,13 @@ export const historyDocumentation = {
           update: "Integración de Marketplace",
           state: "En revisión",
           description: "Implementación de un Marketplace dentro de la plataforma, permitiendo a los usuarios acceder a productos y servicios relacionados con el fitness. Incluirá la compra de suplementos, equipamiento deportivo, planes de entrenamiento personalizados y acceso a entrenadores certificados."
-        }               
+        },
+        {
+          plannedDate: "Próximamente",
+          update: "Atención al Cliente con IA",
+          state: "En revisión",
+          description: "Soporte automatizado impulsado por inteligencia artificial para ofrecer asistencia rápida y personalizada a tus clientes."
+        },              
       ],
       scalabilityStrategy: "Adoptar una arquitectura modular que permita la incorporación de nuevas tecnologías y funcionalidades sin afectar la estabilidad de la plataforma."
     }

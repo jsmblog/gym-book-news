@@ -59,5 +59,3 @@ export const como_potenciar_tu_entrenamiento_en_casa = {
     }
   ]
 };
-
-export default como_potenciar_tu_entrenamiento_en_casa;

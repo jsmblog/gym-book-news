@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import '../Styles/stylesNavBar.css'
 import { Link } from 'react-router-dom';
+import GoPage from './GoPage';
 const NavBar = () => {
   const [scrolled, setScrolled] = useState(false);
   
@@ -22,11 +23,7 @@ const NavBar = () => {
                 <Link to="/historial"><li>Historial</li></Link>
             </ul>
         </nav>
-        <button className='go-to-web'>
-        <a href="https://gym-book.netlify.app/" target="_blank" rel="noopener noreferrer">
-        Ir a GymBook →
-        </a>
-        </button>
+        <GoPage/>
     </header>
   )
 }

@@ -42,8 +42,6 @@ header ul li:hover {
 .go-to-web {
     border: 1px solid var(--co-back-gray-3);
     box-shadow: 0 6px 5px -5px var(--co-back-gray-3);
-}
-.go-to-web a {
     background:linear-gradient(90deg,#000428,#267cfd,#000428);
     -webkit-background-clip:text;
     -webkit-text-fill-color:transparent;
