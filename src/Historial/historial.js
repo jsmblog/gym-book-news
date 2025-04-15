@@ -5,7 +5,7 @@ export const historyDocumentation = {
     },
     chronology: [
       {
-        date: "2025-04-07",
+        date: "2025-04-15",
         event: "Lanzamiento Beta",
         description: "La página se lanzó al público con un diseño responsivo y funcionalidades básicas."
       },
@@ -25,8 +25,8 @@ export const historyDocumentation = {
       },
       {
         state: "Beta",
-        startDate: "2025-04-07",
-        endDate: "2025-04-14",
+        startDate: "2025-04-15",
+        endDate: "2025-04-22",
         trigger: "Versión beta para usuarios selectos",
         details: "Recopilación de feedback y ajustes en base a las primeras experiencias reales."
       },
@@ -50,27 +50,27 @@ export const historyDocumentation = {
         {
           date: "2025-02-01",
           update: "Optimización de rendimiento y escalabilidad",
-          technologies: ["Vite", "Cloud Firestore", "React"],
+          technologies: ["Vite", "Firebase", "React","Node js","Google Cloud"],
           reason: "Mejorar tiempos de respuesta y garantizar una experiencia fluida para los usuarios en el Marketplace."
         }
       ]
     },
-    impactMetrics: [
-      {
-        date: "2025-03-15",
-        metric: "Tráfico web",
-        before: "100 visitas/día",
-        after: "200 visitas/día",
-        analysis: "El lanzamiento oficial generó un incremento significativo en el tráfico de la web."
-      },
-      {
-        date: "2022-03-05",
-        metric: "Tasa de conversión",
-        before: "2%",
-        after: "4%",
-        analysis: "El rediseño incrementó la conversión, mejorando la interacción del usuario con la plataforma."
-      }
-    ],
+    // impactMetrics: [
+    //   {
+    //     date: "2025-03-15",
+    //     metric: "Tráfico web",
+    //     before: "100 visitas/día",
+    //     after: "200 visitas/día",
+    //     analysis: "El lanzamiento oficial generó un incremento significativo en el tráfico de la web."
+    //   },
+    //   {
+    //     date: "2022-03-05",
+    //     metric: "Tasa de conversión",
+    //     before: "2%",
+    //     after: "4%",
+    //     analysis: "El rediseño incrementó la conversión, mejorando la interacción del usuario con la plataforma."
+    //   }
+    // ],
     futurePlan: {
       upcomingUpdates: [
         {
@@ -90,12 +90,24 @@ export const historyDocumentation = {
           update: "Gestión de eventos",
           state: "En revisión",
           description: "Se habilitará una sección para crear y gestionar eventos comunitarios, con encuestas y herramientas integrales para organizar actividades."
-        },        
+        },
+        {
+          plannedDate: "Próximamente",
+          update: "Integración con google meet y zoom",
+          state: "En revisión",
+          description: "Integración de plataformas de videoconferencia para facilitar clases virtuales y sesiones de entrenamiento en línea."
+        },
         {
           plannedDate: "Próximamente",
           update: "Implementación de API de rutinas de ejercicios",
           state: "En revisión",
           description: "Integración de una API que proporciona información detallada sobre cómo realizar ejercicios específicos para distintas partes del cuerpo. Incluirá guías paso a paso, ilustraciones y recomendaciones para optimizar la ejecución y evitar lesiones."
+        },
+        {
+          plannedDate: "Próximamente",
+          update: "Generador de rutinas",
+          state: "En revisión",
+          description: "Implementación de una herramienta que permite a los usuarios crear rutinas personalizadas basadas en sus objetivos, nivel de experiencia y preferencias."
         },
         {
           plannedDate: "Próximamente",

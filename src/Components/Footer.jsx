@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../Styles/stylesFooter.css';
+import GoPage from './GoPage';
 const CURRENT_YEAR = new Date().getFullYear();
 const Footer = () => {
   const [showModal, setShowModal] = useState(false);
@@ -19,9 +20,10 @@ const Footer = () => {
       <footer className="footer">
         <div className="footer-content">
           <p>© {CURRENT_YEAR} GymBook. Todos los derechos reservados.</p>
-          <button className="newsletter-button back-blue-dark" onClick={() => setShowModal(true)}>
+          {/* <button className="newsletter-button back-blue-dark" onClick={() => setShowModal(true)}>
             Suscríbete a nuestra newsletter
-          </button>
+          </button> */}
+          <GoPage/>
         </div>
       </footer>
 
